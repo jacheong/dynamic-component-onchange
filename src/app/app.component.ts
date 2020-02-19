@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rxjs';
+  data = {
+    name: 'Justin'
+  };
+
+  newData() {
+    let newData = {
+      name: 'Cheong'
+    };
+    this.data  = newData;
+  }
 }
