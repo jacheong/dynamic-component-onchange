@@ -1,0 +1,15 @@
+.employee-card {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: solid 1px darkblue;
+
+    .greeting {
+        font-family: 'Pacifico';
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

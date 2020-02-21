@@ -1,3 +1,5 @@
-<h1>Dynamic Component OnChanges</h1>
-<app-dynamic-component [data]="data"></app-dynamic-component>
-<button type="button" (click)="newData()">New Data</button>
+<div class="container">
+    <h1>Dynamic Component OnChanges</h1>
+    <input type="text" (keyup)="input$.next($event)" placeholder="Type in employee's name">
+    <app-dynamic-component [data]="data"></app-dynamic-component>
+</div>

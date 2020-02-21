@@ -1,1 +1,3 @@
-<span *ngIf="data">{{data | json}}</span>
+<div class="employee-card" *ngIf="data">
+    <span class="greeting">Hello my name is: </span><span class="name">{{data.name}}</span>
+</div>

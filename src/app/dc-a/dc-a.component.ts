@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs';
 })
 export class DcAComponent implements OnInit, OnDestroy {
 
-  data = {};
+  data: any;
   subscriptions: Subscription[] = [];
 
   constructor(
